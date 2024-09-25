@@ -1,0 +1,14 @@
+{
+    "name": "mono-micro",
+    "version": "1.0.0",
+    "description": "A microservices project",
+    "scripts": {
+        "start": "concurrently \"cd ./productservice && node app.js\" \"cd ./userservice && node app.js\"",
+        "init": "concurrently \"cd ./productservice && npm install\" \"cd ./userservice && npm install\""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^6.5.1"
+    }
+}
