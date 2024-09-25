@@ -40,6 +40,25 @@ app.get('/users/produit/:id', (req, res) => {
   });
 });
 
+app.get('/users/produit/lag/:id', (req, res) => {
+  const user = users.find((user) => user.id === Number(req.params.id));
+  if (!user) {
+    return res.status(404).json({ error: 'User not found' });
+  }
+  http.get('http://localhost:3002/products/lag/' + user.id, (response) => {
+    let data = '';
+    response.on('data', (chunk) => {
+      data += chunk;
+    });
+    response.on('end', () => {
+      user.products = JSON.parse(data);
+      res.json(user);
+    });
+  }).on('error', (err) => {
+    res.status(500).json({ error: 'Error fetching products' });
+  });
+});
+
 app.listen(port, () => {
   console.log(`User service running on http://localhost:${port}`);
 });

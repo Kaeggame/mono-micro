@@ -27,6 +27,13 @@ app.get('/products/:userId', (req, res) => {
   res.json(userProducts);
 });
 
+app.get('/products/lag/:userId', (req, res) => {
+  setTimeout(() => {
+    const userProducts = products.filter((product) => product.userId === req.params.userId);
+    res.json(userProducts);
+  }, 8000);
+});
+
 app.listen(port, () => {
   console.log(`Product service running on http://localhost:${port}`);
 });
