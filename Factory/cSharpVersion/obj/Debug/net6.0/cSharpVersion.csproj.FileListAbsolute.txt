@@ -1,0 +1,15 @@
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.AssemblyInfo.cs
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.sourcelink.json
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\bin\Debug\net6.0\cSharpVersion.exe
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\bin\Debug\net6.0\cSharpVersion.deps.json
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\bin\Debug\net6.0\cSharpVersion.runtimeconfig.json
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\bin\Debug\net6.0\cSharpVersion.dll
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\bin\Debug\net6.0\cSharpVersion.pdb
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.dll
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\refint\cSharpVersion.dll
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.pdb
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\cSharpVersion.genruntimeconfig.cache
+C:\Users\Robin\Documents\EFREI\Cours\Concepts-informatiques\mono-micro\Factory\cSharpVersion\obj\Debug\net6.0\ref\cSharpVersion.dll
