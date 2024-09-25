@@ -1,35 +1,16 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+const userRoutes = require('./routes/userRoutes');
+const productRoutes = require('./routes/productRoutes');
+
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+app.use(bodyParser.json());
 
-// Simulons une base de données en mémoire
-let users = [{ id: 1, name: 'John Doe' }];
-let products = [{ id: 1, name: 'Product A' }];
+app.use('/api/users', userRoutes);
+app.use('/api/products', productRoutes);
 
-// Routes pour la gestion des utilisateurs
-app.get('/users', (req, res) => {
-  res.json(users);
-});
-
-app.post('/users', (req, res) => {
-  const user = { id: users.length + 1, name: req.body.name };
-  users.push(user);
-  res.json(user);
-});
-
-// Routes pour la gestion des produits
-app.get('/products', (req, res) => {
-  res.json(products);
-});
-
-app.post('/products', (req, res) => {
-  const product = { id: products.length + 1, name: req.body.name };
-  products.push(product);
-  res.json(product);
-});
-
-app.listen(port, () => {
-  console.log(`App running on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
